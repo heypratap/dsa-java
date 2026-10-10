@@ -6,7 +6,7 @@ public class ContainerWithMostWater {
         while (left<right) {
             int area = (right-left)*Math.min(heights[left], heights[right]);
             maxArea = Math.max(maxArea,area);
-            if(left<right){
+            if(heights[left]< heights[right]){
                 left++;
             }
             else right--;
