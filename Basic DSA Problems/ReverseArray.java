@@ -1,6 +1,5 @@
 //Print an Array in Reverse Order
 
-import java.util.Arrays;
 
 public class ReverseArray {
     static void  printReverse(int[] nums) {
@@ -13,7 +12,7 @@ public class ReverseArray {
 }
 public static void main(String[] args) {
     int[] nums = {10, 20, 30, 40, 50};
-    printReverse(nums);
-   
+     printReverse(nums);
+    
 }
 }
